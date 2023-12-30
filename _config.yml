@@ -6,7 +6,7 @@ title: Weng Haoyang (翁颢洋) # the website title (if blank, full name will be
 first_name: Elijah
 middle_name: 
 last_name: Galahad
-email: you@example.com
+email: elijahgalahad@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Personal website of Weng Haoyang
 footer_text: >
@@ -19,6 +19,7 @@ lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 👨‍🎓  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://egalahad.github.io # the base hostname & protocol for your site
+url: localhost:8080 # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: true # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
@@ -41,7 +42,7 @@ repo_trophies:
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+# rss_icon: true
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -104,7 +105,7 @@ zotero_username: # your zotero username
 wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 
 contact_note: >
-  Please contact me through gmail elijahgalahad.
+  Please contact me via email if you have any questions or would like to collaborate.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -156,8 +157,8 @@ disqus_shortname: al-folio # put your disqus shortname
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
+  # - name: medium.com
+  #   rss_url: https://medium.com/@al-folio/feed
 
 # -----------------------------------------------------------------------------
 # Collections

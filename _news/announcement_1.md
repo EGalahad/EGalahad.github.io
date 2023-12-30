@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+A new 3D two-player BattleTanks game released at [here](https://egalahad.github.io/BattleTanks/).
