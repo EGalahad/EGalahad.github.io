@@ -44,8 +44,8 @@ jobs:
     - name: html to pdf
       uses: fifsky/html-to-pdf-action@master
       with:
-        htmlFile: ./cv
-        outputFile: ./assets/cv.pdf
+        htmlFile: ./cv/index.html
+        outputFile: ./assets/pdf/cv.pdf
         pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
     - name: Deploy 🚀
       if: github.event_name != 'pull_request'
