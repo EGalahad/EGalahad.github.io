@@ -47,10 +47,19 @@ jobs:
       #   htmlFile: ./_site/cv/index.html
       #   outputFile: ./_site/assets/pdf/cv.pdf
       #   pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
-        uses: markwilson/html2pdf@v1.0
+
+        # uses: markwilson/html2pdf@v1.0
+        # with:
+        #   htmlPath: '_site/cv/index.html'
+        #   pdfName: '_site/assets/pdf/cv.pdf'
+
+        uses: misaelnieto/web_to_pdf_action@master
         with:
-          htmlPath: '_site/cv/index.html'
-          pdfName: '_site/assets/pdf/cv.pdf'
+          webPageURL: https://egalahad.github.io/cv/
+          outputFile: _site/assets/pdf/cv.pdf
+          usePuppeteer: true
+          useScreen: true
+          pdfOptions: '{"format": "Letter", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
     - name: Deploy 🚀
       if: github.event_name != 'pull_request'
       uses: JamesIves/github-pages-deploy-action@v4
