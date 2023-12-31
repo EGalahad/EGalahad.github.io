@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-A new 3D two-player BattleTanks game released at [here](https://egalahad.github.io/BattleTanks/).
+A new 3D two-player BattleTanks game with maze solving and engaging power-ups! Check it out [here](https://egalahad.github.io/BattleTanks/).

@@ -3,23 +3,22 @@
   contents:
     - name: Full Name
       value: Weng Haoyang (翁颢洋)
+    - name: Personal Website
+      value: <a href="https://egalahad.github.io">https://egalahad.github.io</a>
+    - name: Email
+      value: <a href="mailto:elijahgalahad@gmail.com"><i class="fas fa-envelope"></i> Gmail</a>
+    - name: GitHub
+      value: <a href="https://github.com/EGalahad"><i class="fab fa-github"></i> EGalahad</a>
 
 - title: Education
   type: time_table
   contents:
     - title: High School
-      institution: [Zhenhai High School of Ningbo](https://zhzx.net.cn)
+      institution: Zhenhai High School of Ningbo
       year: 2019-2022
-      description:
-        - title: Physics Competition
-          contents:
-           - Gold Medal of 37th CPhO (Chinese Physics Olympiad), selected for APhO (Asian Physics Olympiad).
     - title: Undergrad
-      institution:  [Tsinghua](https://www.tsinghua.edu.cn), [IIIS](https://iiis.tsinghua.edu.cn)
+      institution: Institute for Interdisciplinary Information Sciences, Tsinghua University
       year: 2022-now
-      description:
-        - Description 1.
-        - Description 2.
 
 # - title: Experience
 #   type: time_table
@@ -64,6 +63,15 @@
       year: 2023-now
       description: A framework that aims to unify RL environments and algorithms and make ablations/comparisons easier.
 
+- title: Skills
+  type: nested_list
+  contents:
+    - title: Programming Languages
+      items:
+        - Familiar with Python, C++, C
+        - and LaTeX
+        - Have used JavaScript, HTML, CSS
+
 - title: Honors and Awards
   type: time_table
   contents:
@@ -86,9 +94,9 @@
         - I enjoy coding and designing systems, particularly distributed systems and machine learning systems.
 
 - title: Other Interests
-  type: list
+  type: nested_list
   contents:
     - title: Competitive Ballroom Dancing
-      contents:
+      items:
         - I am a member of the Tsinghua Ballroom Dancing Team affiliated with the Tsinghua University Art Troupe.
         - I am currently dancing in the Latin category, and I am also learning Standard.
