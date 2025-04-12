@@ -1,0 +1,397 @@
+# baseURL: "https://hugo-profile.netlify.app"
+languageCode: "en-us"
+title: "About Haoyang Weng"
+theme: hugo-profile
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+enableRobotsTXT: true
+
+#services:
+  #googleAnalytics:
+    #id: G-MEASUREMENT_ID
+  #disqus:
+    #shortname: your-disqus-shortname
+
+pagination:
+  pagerSize: 3
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+# Menus:
+#   main:
+    # - identifier: blog
+    #   name: Blog
+    #   title: Blog posts
+    #   url: /blogs
+    #   weight: 1
+    # - identifier: gallery
+    #   name: Gallery
+    #   title: Blog posts
+    #   url: /gallery
+    #   weight: 2
+    #Dropdown menu
+    # - identifier: dropdown
+    #   title: Example dropdown menu
+    #   name: Dropdown
+    #   weight: 3
+    # - identifier: dropdown1
+    #   title: example dropdown 1
+    #   name: example 1
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 1
+    # - identifier: dropdown2
+    #   title: example dropdown 2
+    #   name: example 2
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 2
+
+params:
+  title: "Haoyang Weng"
+  description: Haoyang Weng | 翁颢洋
+  # staticPath: ""  # The path to serve the static files from
+  # favicon: "/fav.png"
+
+  # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
+  # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
+  # Note the lack of "" in true, it should be of boolean type.
+  useBootstrapCDN: false
+
+  # If you want to load dynamically responsive images from Cloudinary
+  # This requires your images to be uploaded + hosted on Cloudinary
+  # Uncomment and change YOUR_CLOUD_NAME to the Cloud Name in your Cloudinary console
+  # cloudinary_cloud_name: "YOUR_CLOUD_NAME"
+
+  # Whether to add mathjax support on all pages. Alternatively, you can opt-in per page by adding `mathjax: true` in the frontmatter.
+  mathjax: false
+
+  # Whether the fade animations on the home page will be enabled
+  animate: true
+
+  theme:
+    # disableThemeToggle: true
+    # defaultTheme: "light" # dark
+
+  font:
+    fontSize: 1rem # default: 1rem
+    fontWeight: 400 # default: 400
+    lineHeight: 1.5 # default: 1.5
+    textAlign: left # default: left
+
+  # color preference
+  # When using hex codes for colors, quotations must be used along with the # sign
+  # color:
+  #   textColor: "#343a40"
+  #   secondaryTextColor: "#6c757d"
+  #   textLinkColor: "#007bff"
+  #   backgroundColor: "#eaedf0"
+  #   secondaryBackgroundColor: "#64ffda1a"
+  #   primaryColor: "#007bff"
+  #   secondaryColor: "#f8f9fa"
+
+  #   darkmode:
+  #     textColor: "#e4e6eb"
+  #     secondaryTextColor: "#b0b3b8"
+  #     textLinkColor: "#ffffff"
+  #     backgroundColor: "#18191a"
+  #     secondaryBackgroundColor: "#212529"
+  #     primaryColor: "#ffffff"
+  #     secondaryColor: "#212529"
+
+  # If you want to customize the menu, you can change it here
+  navbar:
+    align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+    # showBrandLogo: false # Show brand logo in nav bar | default is true
+    brandName: "Haoyang Weng | 翁颢洋" # Brand name for the brand | default is the title variable
+    disableSearch: true
+    # searchPlaceholder: "Search"
+    stickyNavBar:
+      enable : true
+      showOnScrollUp : true
+    enableSeparator: false
+    menus:
+      disableAbout: false
+      disableExperience: true
+      disableEducation: false
+      disableProjects: false
+      disableAchievements: true
+      disableContact: false
+
+  # Hero
+  hero:
+    enable: true
+    intro: "Hi, my name is"
+    title: "Haoyang Weng."
+    subtitle: "Nice to meet you!"
+    content: |-
+      I'm a third-year undergraduate at **Institute for Interdisciplinary Information Sciences (IIIS), Tsinghua University**, Beijing, China. 
+
+      I am working on research projects under the supervision of Prof. **Yang Gao**. 
+      Currently, I am serving as a student intern in **LeCAR Lab at CMU**, 
+      where I am advised by Prof. **Guanya Shi**.
+      
+      My research interests focus on building scalable and efficient robot learning algorithms, 
+      by incorporating both priors from intuitive physics and large scale real-world data.
+
+    image: /images/me.png
+    bottomImage:
+      enable: true
+    # roundImage: true # Make hero image circular | default false
+    buttons:
+      - name: "Email"
+        url: "mailto:wenghy22@mails.tsinghua.edu.cn"
+        download: false
+        newPage: false
+      - name: "CV"
+        url: "https://docs.google.com/document/d/17crYmr2iqoUm9oktdJ4WDM960CwqA_jkrdp36a6NkW8/edit?usp=sharing"
+        download: false
+        newPage: true
+      # - name: "Blog"
+      #   url: "https://blog.axell.top"
+      #   download: false
+      #   newPage: true
+      - name: "GitHub"
+        url: "https://github.com/EGalahad"
+        download: false
+        newPage: true
+    # socialLinks:
+    #   fontAwesomeIcons:
+    #     - icon: fab fa-github
+    #       url: https://github.com/Axellwppr/
+
+  # About
+  about:
+    enable: false
+    title: "About Me"
+    image: "/images/me.png"
+    content: |-
+      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA.
+
+      I am currently working on a project that will be used to help people find the best way to get around the city.
+    skills:
+      enable: true
+      title: "Here are a few technologies I've been working with recently:"
+      items:
+        - "HTML"
+        - "CSS"
+        - "JavaScript"
+        - "React"
+        - "Node"
+        - "Express"
+
+  # Experience
+  experience:
+    enable: false
+    # title: "Custom Name"
+    items:
+      - job: "Senior Software Developer"
+        company: "Facebook"
+        companyUrl: "https://example.com"
+        date: "Jan 2022 - present"
+        featuredLink:
+          enable: true
+          name: "View the project"
+          url: "https://example.com"
+        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+  # Education
+  education:
+    enable: true
+    # title: "Custom Name"
+    index: false
+    items:
+      - title: "Tsinghua University"
+        school:
+          name: "Candidate for B.E. in Computer Science and Technology"
+          # url: "https://example.org"
+        date: "2022 - Present"
+        # GPA: "3.95 out of 4.0"
+        content: |-
+
+          **GPA** : 3.90/4.0
+
+          **Relevant Courses**: Mathematics for Artificial Intelligence(A), Deep Learning (A-), Machine learning (A), Intelligent Systems and Robotics (A-), Deep Reinforcement Learning (A), Computer Vision (A-)
+
+          **Honors**:
+          - National Olympiad in Physics, Gold Medal (2022)
+          - Comprehensive Merit Scholarship of Tsinghua (2023)
+          - Spark Scientific and Technological Innovation Fellowship (Top 1% in Tsinghua, 2024)
+        featuredLink:
+          enable: false
+          name: "My academic record"
+          url: "https://example.com"
+  research:
+    enable: false
+    # title: "Custom Name"
+    index: false
+    items:
+      - title: "IIIS, Tsinghua University"
+        subtitle: "Research Assistant"
+        date: "2024.07 - Present"
+        content: |-
+          - **Research Topic**: Learning Deep Impedance Control for Forceful Interaction <br/>
+          - **Advisor**: Prof. **Huazhe Xu**, Prof. **Yang Gao**
+          - Introduced a new impedance control interface inspired by classic manipulator control
+          - Trained reinforcement learning policies on various hardware configurations: arm, quadruped, and combined quadruped+arm setups
+          - Developed real-world deployment code for arm and quadruped+arm systems
+
+  
+  # Achievements
+  achievements:
+    enable: false
+    # title: "Custom Name"
+    items:
+      - title: Google kickstart runner
+        content: I solved all problems with optimal solution.
+        url: https://example.com
+        image: /images/achievement.jpg
+
+  projects:
+    enable: true
+    # title: "Custom Name"
+    index: false
+    items:
+      - category: "Publication"
+        projects:
+          - title: "Reinforcement Learning with Foundation Priors: Let Embodied Agent Efficiently Learn on Its Own"
+            content: >
+              Developed RLFP framework using foundation models for policy/value guidance, enabling sample-efficient real-world RL finetuning. 
+            date: "2023.12 - 2024.1"
+            badges:
+              - "Reinforcement Learning"
+              - "Foundation Models"
+              - "Robotics"
+              - "CoRL 2024"
+            featured:
+              name: "Arxiv"
+              link: "https://arxiv.org/abs/2310.02635"
+
+          - title: "On Scaling Up 3D Gaussian Splatting"
+            content: >
+              Developed √batch-size learning rate scaling enabling near-linear speedup in distributed 3DGS training. 
+            date: "2024.2 - 2024.6"
+            link: "https://arxiv.org/abs/2406.18533"
+            badges:
+              - "ECCV Workshop"
+              - "3D Reconstruction"
+              - "Distributed Training"
+
+          - title: "Deep Impedance Control (Ongoing)"
+            content: >
+              Propose a deep impedance control framework for forceful interaction by reference model tracking. <br/>
+            date: "2024.6 - Present"
+            badges:
+              - "Robotics"
+              - "Impedance Control"
+              - "Reinforcement Learning"
+
+      - category: "Course Projects"
+        projects:
+          - title: "Accelerating Model-based Learning of Locomotion with Pretrained Demonstrations"
+            content: >
+              PPO-trained A1 robot locomotion in IsaacGym with Dreamer-based online fine-tuning in MuJoCo.
+            date: "2023.12 - 2024.1"
+            badges:
+              - "Model-based RL"
+              - "Robotics"
+
+          - title: "Cyber Dribble: Flexible Framework for Agile Dribbling with Cyberdog2"
+            content: >
+              Trains a RL policy for Cyberdog2 to perform agile dribbling tasks. Self-developed framework for real-world deployment, built on pybind11.
+            date: "2024.3 - 2024.6"
+            link: "https://github.com/EGalahad/dribbling_cyberdog2"
+            badges:
+              - "Reinforcement Learning"
+              - "C++/Pybind11"
+              - "Sim2Real"
+              - "Robotics"
+
+          - title: "Gauss Fusion: Seamless 3D Object Integration using Gaussian Splatting"
+            content: >
+              Gaussian Splatting preprocessing and merging pipeline with interactive 3D visualization.
+            date: "2024.5 - 2024.7"
+            link: "https://github.com/EGalahad/GaussFusion"
+            badges:
+              - "Gaussian Splatting"
+              - "3D Reconstruction"
+
+          - title: "Audio Reactive Controls: Real Time Visualization of Music on Customised Hardware"
+            content: >
+              A custom music player hardware controlling ferrofluids and LED light strips for audio visualization. <br/>
+              Low-latency audio processing (C++/libpulse) for real-time hardware visualization on Raspberry Pi.
+            date: "2024.4 - 2024.6"
+            link: "https://github.com/EGalahad/AudioReactiveControls"
+            badges:
+              - "Embedded Systems"
+              - "C++/libpulse"
+              - "Raspberry Pi"
+  #Contact
+  contact:
+    enable: false
+    # title: "Custom Name"
+    content: 
+    btnName: Mail me
+    btnLink: mailto:luqz22@mails.tsinghua.edu.cn
+    # formspree:
+    #   enable: true # `contact.email` value will be ignored
+    #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
+    #   emailCaption: "Enter your email address"
+    #   messageCaption: "Enter your message here"
+    #   messageRows: 5
+
+  footer:
+    recentPosts:
+      path: "blogs"
+      count: 3
+      title: Recent Posts
+      enable: true
+      disableFeaturedImage: false
+    socialNetworks:
+      github: https://github.com
+      linkedin: https://linkedin.com
+      twitter: https://twitter.com
+      instagram: https://instagram.com
+      facebook: https://facebook.com
+
+  # List pages like blogs and posts
+  listPages:
+    disableFeaturedImage: false
+
+  # Single pages like blog and post
+  singlePages:
+    socialShare: true
+    readTime:
+      enable: true
+      content: "min read"
+    scrollprogress:
+      enable: true
+    tags:
+      openInNewTab: true
+
+  # For translations
+  terms:
+    read: "Read"
+    toc: "Table Of Contents"
+    copyright: "All rights reserved"
+    pageNotFound: "Page not found"
+    emailText: "Check out this site"
+
+  datesFormat:
+    article: "Jan 2, 2006"
+    articleList: "Jan 2, 2006"
+    articleRecent: "Jan 2, 2006"
+
+  #customScripts: -| # You can add custom scripts which will be added before </body> tag
+  #  <script type="text/javascript"><!-- any script here --></script>
