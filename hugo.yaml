@@ -14,7 +14,7 @@ outputs:
 
 enableRobotsTXT: true
 
-baseURL: https://egalahad.github.io/personal-website/
+baseURL: https://egalahad.github.io
 #services:
   #googleAnalytics:
     #id: G-MEASUREMENT_ID
@@ -275,6 +275,7 @@ params:
               - "Foundation Models"
               - "Robotics"
               - "CoRL 2024"
+            image: /images/projects/rlfp.png
             featured:
               name: "Arxiv"
               link: "https://arxiv.org/abs/2310.02635"
