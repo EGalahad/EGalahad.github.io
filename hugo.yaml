@@ -14,6 +14,7 @@ outputs:
 
 enableRobotsTXT: true
 
+baseURL: https://egalahad.github.io/personal-website/
 #services:
   #googleAnalytics:
     #id: G-MEASUREMENT_ID
