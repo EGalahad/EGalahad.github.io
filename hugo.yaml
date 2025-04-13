@@ -1,4 +1,4 @@
-# baseURL: "https://hugo-profile.netlify.app"
+# baseURL: https://egalahad.github.io
 languageCode: "en-us"
 title: "About Haoyang Weng"
 theme: hugo-profile
@@ -14,7 +14,6 @@ outputs:
 
 enableRobotsTXT: true
 
-# baseURL: https://egalahad.github.io
 #services:
   #googleAnalytics:
     #id: G-MEASUREMENT_ID
