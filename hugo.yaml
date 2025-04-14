@@ -145,8 +145,10 @@ params:
       
       My research interests focus on building scalable and efficient robot learning algorithms, 
       by incorporating both priors from intuitive physics and large scale real-world data.
+      I believe that the combination of **large scale real-world data** and **clean implementation of minimal algorithmic priors** 
+      will lead to generalizable robot learning algorithms.
 
-    image: /images/me.png
+    image: /images/portrait.jpeg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -176,7 +178,7 @@ params:
   about:
     enable: false
     title: "About Me"
-    image: "/images/me.png"
+    image: "/images/portrait.jpeg"
     content: |-
       I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA.
 
@@ -283,20 +285,23 @@ params:
             content: >
               Developed √batch-size learning rate scaling enabling near-linear speedup in distributed 3DGS training. 
             date: "2024.2 - 2024.6"
+            image: /images/projects/3dgs_640-fast.gif
             link: "https://arxiv.org/abs/2406.18533"
             badges:
-              - "ECCV Workshop"
               - "3D Reconstruction"
               - "Distributed Training"
+              - "ICLR 2025"
 
-          - title: "Deep Impedance Control (Ongoing)"
-            content: >
-              Propose a deep impedance control framework for forceful interaction by reference model tracking. <br/>
-            date: "2024.6 - Present"
-            badges:
-              - "Robotics"
-              - "Impedance Control"
-              - "Reinforcement Learning"
+          # - title: "Deep Impedance Control (Ongoing)"
+          #   content: >
+          #     Propose a deep impedance control framework for forceful interaction by reference model tracking. <br/>
+          #   date: "2024.6 - Present"
+          #   image: /images/projects/impedance.gif
+          #   badges:
+          #     - "Robotics"
+          #     - "Impedance Control"
+          #     - "Reinforcement Learning"
+          #     - "CORL 2025"
 
       - category: "Course Projects"
         projects:
@@ -304,6 +309,7 @@ params:
             content: >
               PPO-trained A1 robot locomotion in IsaacGym with Dreamer-based online fine-tuning in MuJoCo.
             date: "2023.12 - 2024.1"
+            image: /images/projects/gym2mjc.png
             badges:
               - "Model-based RL"
               - "Robotics"
@@ -313,6 +319,7 @@ params:
               Trains a RL policy for Cyberdog2 to perform agile dribbling tasks. Self-developed framework for real-world deployment, built on pybind11.
             date: "2024.3 - 2024.6"
             link: "https://github.com/EGalahad/dribbling_cyberdog2"
+            image: /images/projects/cyber_dribble.gif
             badges:
               - "Reinforcement Learning"
               - "C++/Pybind11"
@@ -324,6 +331,7 @@ params:
               Gaussian Splatting preprocessing and merging pipeline with interactive 3D visualization.
             date: "2024.5 - 2024.7"
             link: "https://github.com/EGalahad/GaussFusion"
+            image: /images/projects/gauss_fusion.gif
             badges:
               - "Gaussian Splatting"
               - "3D Reconstruction"
@@ -334,6 +342,7 @@ params:
               Low-latency audio processing (C++/libpulse) for real-time hardware visualization on Raspberry Pi.
             date: "2024.4 - 2024.6"
             link: "https://github.com/EGalahad/AudioReactiveControls"
+            image: /images/projects/audio_reactive_controls.gif
             badges:
               - "Embedded Systems"
               - "C++/libpulse"
