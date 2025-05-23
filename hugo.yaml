@@ -146,8 +146,8 @@ params:
       I am intersted in the intersection between Machine Learning and Robotics.
       My goal is to build scalable and efficient robot learning algorithms, 
       by incorporating both priors from intuitive physics and large scale real-world data.
-      I believe that the combination of **large scale real-world data** 
-      and **clean implementation of minimal algorithmic priors** 
+      I believe that the combination of **clean implementation of minimal algorithmic priors** 
+      and **large scale multi-source data** 
       will lead to generalizable robot learning algorithms.
 
     image: /images/portrait.jpeg
@@ -269,6 +269,41 @@ params:
     items:
       - category: "Publication"
         projects:
+          - title: "FACET: Force-Adaptive Control via Impedance Reference Tracking for Legged Robots"
+            content: >
+              Force-adaptive policy conditioned on desired stiffness as command input, enabling variable impedance control.
+            date: "2024.6 - Present"
+            image: /images/projects/impedance.gif
+            featured:
+              - name: "Arxiv"
+                link: "https://arxiv.org/abs/2505.06883"
+              - name: "Twitter"
+                link: "https://x.com/ElijahGalahad/status/1924465106655584749"
+              - name: "Website"
+                link: "https://facet.pages.dev/"
+            badges:
+              - "Robotics"
+              - "Impedance Control"
+              - "Reinforcement Learning"
+
+          - title: "On Scaling Up 3D Gaussian Splatting"
+            content: >
+              Developed √batch-size learning rate scaling enabling near-linear speedup in distributed 3DGS training. 
+            date: "2024.2 - 2024.6"
+            image: /images/projects/3dgs_640-fast.gif
+            featured:
+              - name: "Arxiv"
+                link: "https://arxiv.org/abs/2406.18533"
+              - name: "Twitter"
+                link: "https://x.com/sainingxie/status/1806364570887569532"
+              - name: "Website"
+                link: "https://daohanlu.github.io/scaling-up-3dgs/"
+
+            badges:
+              - "3D Reconstruction"
+              - "Distributed Training"
+              - "ICLR 2025"
+
           - title: "Reinforcement Learning with Foundation Priors: Let Embodied Agent Efficiently Learn on Its Own"
             content: >
               Developed RLFP framework using foundation models for policy/value guidance, enabling sample-efficient real-world RL finetuning. 
@@ -280,30 +315,8 @@ params:
               - "CoRL 2024"
             image: /images/projects/rlfp.png
             featured:
-              name: "Arxiv"
-              link: "https://arxiv.org/abs/2310.02635"
-
-          - title: "On Scaling Up 3D Gaussian Splatting"
-            content: >
-              Developed √batch-size learning rate scaling enabling near-linear speedup in distributed 3DGS training. 
-            date: "2024.2 - 2024.6"
-            image: /images/projects/3dgs_640-fast.gif
-            link: "https://arxiv.org/abs/2406.18533"
-            badges:
-              - "3D Reconstruction"
-              - "Distributed Training"
-              - "ICLR 2025"
-
-          # - title: "Deep Impedance Control (Ongoing)"
-          #   content: >
-          #     Propose a deep impedance control framework for forceful interaction by reference model tracking. <br/>
-          #   date: "2024.6 - Present"
-          #   image: /images/projects/impedance.gif
-          #   badges:
-          #     - "Robotics"
-          #     - "Impedance Control"
-          #     - "Reinforcement Learning"
-          #     - "CORL 2025"
+              - name: "Arxiv"
+                link: "https://arxiv.org/abs/2310.02635"
 
       - category: "Course Projects"
         projects:
@@ -318,9 +331,11 @@ params:
 
           - title: "Cyber Dribble: Flexible Framework for Agile Dribbling with Cyberdog2"
             content: >
-              Trains a RL policy for Cyberdog2 to perform agile dribbling tasks. Self-developed framework for real-world deployment, built on pybind11.
+              Trains a RL policy for Cyberdog2 to perform agile dribbling tasks. Full-stack framework for real-world deployment, built on pybind11.
             date: "2024.3 - 2024.6"
-            link: "https://github.com/EGalahad/dribbling_cyberdog2"
+            featured:
+              - name: "Code"
+                link: "https://github.com/EGalahad/dribbling_cyberdog2"
             image: /images/projects/cyber_dribble.gif
             badges:
               - "Reinforcement Learning"
@@ -332,7 +347,9 @@ params:
             content: >
               Gaussian Splatting preprocessing and merging pipeline with interactive 3D visualization.
             date: "2024.5 - 2024.7"
-            link: "https://github.com/EGalahad/GaussFusion"
+            featured:
+              - name: "Code"
+                link: "https://github.com/EGalahad/GaussFusion"
             image: /images/projects/gauss_fusion.gif
             badges:
               - "Gaussian Splatting"
@@ -343,7 +360,9 @@ params:
               A custom music player hardware controlling ferrofluids and LED light strips for audio visualization. <br/>
               Low-latency audio processing (C++/libpulse) for real-time hardware visualization on Raspberry Pi.
             date: "2024.4 - 2024.6"
-            link: "https://github.com/EGalahad/AudioReactiveControls"
+            featured:
+              - name: "Code"
+                link: "https://github.com/EGalahad/AudioReactiveControls"
             image: /images/projects/audio_reactive_controls.gif
             badges:
               - "Embedded Systems"
