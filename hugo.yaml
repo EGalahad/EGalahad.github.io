@@ -281,6 +281,8 @@ params:
                 link: "https://x.com/ElijahGalahad/status/1924465106655584749"
               - name: "Website"
                 link: "https://facet.pages.dev/"
+              - name: "Live Demo"
+                link: "https://facet.pages.dev/#/demo"
             badges:
               - "Robotics"
               - "Impedance Control"
