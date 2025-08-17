@@ -302,7 +302,7 @@ params:
               - name: "Website"
                 link: "https://daohanlu.github.io/scaling-up-3dgs/"
             badges:
-              - "ICLR 2025 (Spotlight)"
+              - "ICLR 2025 (Oral)"
               - "Optimization"
               - "Distributed Training"
 
