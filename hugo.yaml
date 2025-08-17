@@ -284,6 +284,7 @@ params:
               - name: "Live Demo"
                 link: "https://facet.pages.dev/#/demo"
             badges:
+              - "CoRL 2025 (Oral)"
               - "Robotics"
               - "Impedance Control"
               - "Reinforcement Learning"
@@ -300,25 +301,24 @@ params:
                 link: "https://x.com/sainingxie/status/1806364570887569532"
               - name: "Website"
                 link: "https://daohanlu.github.io/scaling-up-3dgs/"
-
             badges:
-              - "3D Reconstruction"
+              - "ICLR 2025 (Spotlight)"
+              - "Optimization"
               - "Distributed Training"
-              - "ICLR 2025"
 
           - title: "Reinforcement Learning with Foundation Priors: Let Embodied Agent Efficiently Learn on Its Own"
             content: >
               Developed RLFP framework using foundation models for policy/value guidance, enabling sample-efficient real-world RL finetuning. 
             date: "2023.12 - 2024.1"
-            badges:
-              - "Reinforcement Learning"
-              - "Foundation Models"
-              - "Robotics"
-              - "CoRL 2024"
             image: /images/projects/rlfp.png
             featured:
               - name: "Arxiv"
                 link: "https://arxiv.org/abs/2310.02635"
+            badges:
+              - "CoRL 2024 (Oral)"
+              - "Reinforcement Learning"
+              - "Foundation Models"
+              - "Robotics"
 
       - category: "Course Projects"
         projects:
