@@ -269,10 +269,27 @@ params:
     items:
       - category: "Publication"
         projects:
+          - title: "HDMI: Learning Interactive Humanoid Whole-Body Control from Human Videos"
+            content: >
+              Simple and general framework for acquiring whole-body interactive skills directly from human videos.
+            date: "2025.6 - 2025.9"
+            image: /images/projects/suitcase_4x.gif
+            featured:
+              # - name: "Arxiv"
+              #   link: "https://arxiv.org/abs/2505.06883"
+              # - name: "Twitter"
+              #   link: "https://x.com/ElijahGalahad/status/1924465106655584749"
+              - name: "Website"
+                link: "https://hdmi-humanoid.github.io/"
+            badges:
+              - "Humanoid Robots"
+              - "Learning from Demonstrations"
+              - "Reinforcement Learning"
+          
           - title: "FACET: Force-Adaptive Control via Impedance Reference Tracking for Legged Robots"
             content: >
               Force-adaptive policy conditioned on desired stiffness as command input, enabling variable impedance control.
-            date: "2024.6 - Present"
+            date: "2024.6 - 2025.4"
             image: /images/projects/impedance.gif
             featured:
               - name: "Arxiv"
